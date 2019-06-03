@@ -4,6 +4,10 @@
   <%= devise_error_messages! %>
 
     <div class="form-group">
+      <%= f.label "Profile Photo" %>
+      <%= f.file_field :avatar %><br>
+
+    <div class="form-group">
         <%= f.label :name %>
         <%= f.text_field :name, class: "form-control", :autofocus => true %>
     </div>

@@ -18,6 +18,9 @@ gem 'jquery-rails'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form'
 
+
+
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
